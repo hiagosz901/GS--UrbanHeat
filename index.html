@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanHeat — Inteligência Geoespacial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== MENU ===== -->
+  <nav>
+    <div class="nav-logo">Urban<span>Heat</span></div>
+    <ul class="nav-links">
+      <li><a href="#problema">Problema</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#objetivos">Objetivos</a></li>
+      <li><a href="#publico">Público</a></li>
+      <li><a href="#beneficios">Benefícios</a></li>
+      <li><a href="#aplicacao">Aplicação</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <span class="hero-tag">🌍 Global Solution 2026 — FIAP</span>
+    <h1 class="hero-title">
+      Inteligência<br>
+      <span class="accent">Geoespacial</span><br>
+      para Cidades<br>Sustentáveis
+    </h1>
+    <p class="hero-sub">
+      O UrbanHeat transforma dados de satélite em inteligência territorial —
+      identificando onde cada árvore plantada causa o maior impacto ambiental.
+    </p>
+    <a href="#problema" class="btn-hero">Conheça a solução →</a>
+  </section>
+
+  <!-- ===== SEÇÃO 1: PROBLEMA ===== -->
+  <section id="problema" class="s-alt">
+    <div class="container">
+      <p class="section-label">01 — Problema</p>
+      <h2 class="section-title">Ilhas de calor urbanas<br>afetam milhões de pessoas</h2>
+      <p class="section-desc">
+        A substituição de vegetação por asfalto e concreto eleva a temperatura local em até
+        8–12 °C acima da média regional. Nas metrópoles brasileiras, o déficit de arborização
+        nos bairros periféricos agrava a desigualdade climática urbana.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🌡️</div>
+          <h3>Calor extremo</h3>
+          <p>Superfícies impermeáveis absorvem e irradiam calor, elevando a temperatura em até 12 °C acima da média.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Mais consumo de energia</h3>
+          <p>Ar-condicionado e refrigeração sobrecarregam a rede elétrica e aumentam emissões de carbono.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🫁</div>
+          <h3>Saúde em risco</h3>
+          <p>Idosos, crianças e pessoas com doenças crônicas são os mais vulneráveis em episódios de calor extremo.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📍</div>
+          <h3>Sem dados para agir</h3>
+          <p>Gestores públicos carecem de ferramentas baseadas em dados para priorizar intervenções com precisão.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 2: TECNOLOGIA ===== -->
+  <section id="tecnologia">
+    <div class="container">
+      <p class="section-label">02 — Tecnologia</p>
+      <h2 class="section-title">Satélites, dados abertos<br>e processamento em nuvem</h2>
+      <p class="section-desc">
+        O UrbanHeat combina fontes públicas de imagens orbitais com processamento geoespacial
+        escalável, sem depender de hardware proprietário.
+      </p>
+      <table class="tech-table">
+        <thead>
+          <tr>
+            <th>Tecnologia</th>
+            <th>O que faz</th>
+            <th>Uso no UrbanHeat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Landsat 8/9 (NASA/USGS)</td>
+            <td>Imagens termais de 30 m de resolução</td>
+            <td>Cálculo da temperatura de superfície (LST)</td>
+          </tr>
+          <tr>
+            <td>Sentinel-2 (ESA)</td>
+            <td>Imagens ópticas de 10 m, revisita 5 dias</td>
+            <td>Cálculo do índice de vegetação (NDVI)</td>
+          </tr>
+          <tr>
+            <td>Google Earth Engine</td>
+            <td>Computação em nuvem para dados geoespaciais</td>
+            <td>Processamento automatizado de LST e NDVI</td>
+          </tr>
+          <tr>
+            <td>NDVI</td>
+            <td>Índice (NIR−RED) / (NIR+RED) — de −1 a +1</td>
+            <td>Quantificação da cobertura vegetal por pixel</td>
+          </tr>
+          <tr>
+            <td>LST</td>
+            <td>Temperatura extraída das bandas termais</td>
+            <td>Mapeamento de zonas quentes com resolução 30 m</td>
+          </tr>
+          <tr>
+            <td>IPI (índice próprio)</td>
+            <td>Cruzamento LST × NDVI em 4 níveis</td>
+            <td>Priorização das intervenções de arborização</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 3: OBJETIVOS ===== -->
+  <section id="objetivos" class="s-alt">
+    <div class="container">
+      <p class="section-label">03 — Objetivos</p>
+      <h2 class="section-title">O que o UrbanHeat<br>quer alcançar</h2>
+      <p class="section-desc">
+        A plataforma foi desenhada para transformar dados orbitais em decisões de impacto mensurável.
+      </p>
+      <ul class="obj-list">
+        <li>
+          <span class="num">01</span>
+          Mapear ilhas de calor urbanas com resolução de bairro, usando dados reais de temperatura de superfície (LST) e cobertura vegetal (NDVI).
+        </li>
+        <li>
+          <span class="num">02</span>
+          Gerar um Índice de Prioridade de Intervenção (IPI) georreferenciado, indicando onde o plantio de árvores terá maior retorno ambiental.
+        </li>
+        <li>
+          <span class="num">03</span>
+          Oferecer interface visual acessível a gestores públicos sem formação técnica em geoprocessamento.
+        </li>
+        <li>
+          <span class="num">04</span>
+          Automatizar a ingestão e o processamento de novas imagens de satélite, mantendo os dados sempre atualizados.
+        </li>
+        <li>
+          <span class="num">05</span>
+          Permitir monitoramento pós-intervenção com comparativo histórico antes × depois para demonstrar impacto real.
+        </li>
+        <li>
+          <span class="num">06</span>
+          Contribuir para os ODS 11 (Cidades Sustentáveis) e ODS 13 (Ação Climática) da Agenda 2030 da ONU.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 4: PÚBLICO-ALVO ===== -->
+  <section id="publico">
+    <div class="container">
+      <p class="section-label">04 — Público-alvo</p>
+      <h2 class="section-title">Quem usa o UrbanHeat</h2>
+      <p class="section-desc">
+        A plataforma atende tanto perfis técnicos quanto gestores e cidadãos, com experiências
+        adaptadas a cada necessidade.
+      </p>
+      <div class="personas">
+        <div class="persona">
+          <div class="persona-icon">🏛️</div>
+          <h3>Gestor Municipal</h3>
+          <p>Secretarias de meio ambiente e urbanismo que precisam de dados para decisões de investimento em infraestrutura verde.</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">📐</div>
+          <h3>Urbanista</h3>
+          <p>Profissionais de planejamento que necessitam de embasamento técnico e metodologia auditável.</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🔬</div>
+          <h3>Pesquisador Ambiental</h3>
+          <p>Acadêmicos que estudam climatologia urbana e precisam de séries históricas e dados brutos georreferenciados.</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🏢</div>
+          <h3>Consultoria Urbana</h3>
+          <p>Empresas que desenvolvem projetos de planejamento ambiental para cidades e precisam de laudos técnicos.</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🌱</div>
+          <h3>ONGs e Ativismo</h3>
+          <p>Organizações voltadas à justiça climática que precisam de evidências para defender políticas públicas verdes.</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">📱</div>
+          <h3>Cidadão</h3>
+          <p>Qualquer pessoa que queira entender a situação térmica do seu bairro e engajar-se em iniciativas locais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 5: BENEFÍCIOS ===== -->
+  <section id="beneficios" class="s-alt">
+    <div class="container">
+      <p class="section-label">05 — Benefícios</p>
+      <h2 class="section-title">O que a plataforma<br>entrega de concreto</h2>
+      <p class="section-desc">
+        Mais do que um mapa de calor — o UrbanHeat entrega inteligência territorial acionável
+        e demonstra impacto mensurável ao longo do tempo.
+      </p>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="icon">💰</div>
+          <div>
+            <h3>Eficiência de recursos públicos</h3>
+            <p>Prioriza os locais de maior retorno ambiental, evitando gastos dispersos em arborização.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="icon">📉</div>
+          <div>
+            <h3>Redução de temperatura mensurável</h3>
+            <p>Séries históricas comprovam a queda de LST nas áreas tratadas com dados antes × depois.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="icon">⚖️</div>
+          <div>
+            <h3>Redução da desigualdade urbana</h3>
+            <p>Identifica bairros periféricos com maior vulnerabilidade térmica para intervenção prioritária.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="icon">🌫️</div>
+          <div>
+            <h3>Melhora na qualidade do ar</h3>
+            <p>Mais árvores plantadas nos pontos certos reduzem o calor e melhoram o conforto respiratório.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="icon">📊</div>
+          <div>
+            <h3>Relatórios automáticos</h3>
+            <p>PDF exportável com mapa, tabela de IPI e justificativa técnica, pronto para câmara municipal.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="icon">🛰️</div>
+          <div>
+            <h3>Dados sempre atualizados</h3>
+            <p>Pipeline automatizado via Google Earth Engine processa novas imagens em até 24 horas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 6: APLICAÇÃO NO DIA A DIA ===== -->
+  <section id="aplicacao">
+    <div class="container">
+      <p class="section-label">06 — Aplicação no dia a dia</p>
+      <h2 class="section-title">Como a plataforma<br>funciona na prática</h2>
+      <p class="section-desc">
+        Do login ao relatório — a jornada do gestor municipal dentro do UrbanHeat.
+      </p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h3>Login e painel de alertas</h3>
+            <p>O gestor acessa a plataforma com credenciais institucionais e visualiza o resumo das últimas análises e alertas de atualização de dados de satélite.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h3>Seleciona a área de interesse</h3>
+            <p>Escolhe a cidade ou bairro no mapa interativo. O sistema carrega automaticamente as camadas de temperatura (LST) e vegetação (NDVI) disponíveis.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h3>Identifica zonas críticas</h3>
+            <p>O gradiente de cores destaca as áreas mais quentes e menos arborizadas. O gestor clica em qualquer ponto para ver o IPI calculado (Alta / Moderada / Baixa).</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h3>Compara bairros no painel</h3>
+            <p>O ranking comparativo de IPI por bairro permite identificar as áreas de maior vulnerabilidade, incluindo regiões periféricas com baixo IDH.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">05</div>
+          <div class="step-body">
+            <h3>Define o plano de ação</h3>
+            <p>Seleciona os pontos prioritários para plantio e define o volume de intervenção. O sistema georreferencia cada local escolhido.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">06</div>
+          <div class="step-body">
+            <h3>Gera e apresenta o relatório</h3>
+            <p>Exporta PDF com mapa de calor, tabela de IPI, metodologia e recomendações — com a identidade visual da prefeitura — para apresentar à câmara municipal.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">07</div>
+          <div class="step-body">
+            <h3>Monitora o impacto</h3>
+            <p>Após o plantio, retorna à plataforma para verificar a redução de LST e o aumento de NDVI nas áreas tratadas, documentando o retorno do investimento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer>
+    <div class="footer-logo">Urban<span>Heat</span></div>
+    <div class="footer-ods">
+      <span class="ods-badge">🌆 ODS 11 — Cidades Sustentáveis</span>
+      <span class="ods-badge">🌍 ODS 13 — Ação Climática</span>
+    </div>
+    <div class="footer-equipe">
+      <div class="membro"><strong>Juliano</strong> · RM 572493</div>
+      <div class="membro"><strong>Hiago</strong> · RM 572665</div>
+      <div class="membro"><strong>Octávio</strong> · RM 571811</div>
+      <div class="membro"><strong>Gabriel</strong> · RM 569883</div>
+    </div>
+   
+  </footer>
+
+</body>
+</html>
