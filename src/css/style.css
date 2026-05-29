@@ -421,6 +421,107 @@ footer {
   padding: 6px 14px;
   border-radius: 4px;
 }
+/* ===== slides ===== */
+
+.container img{
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* ===== formulario ===== */
+.formulario{
+  width: 100%;
+  padding: 100px 20px;
+  background: var(--cinza-mid);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form{
+  width: 600px;
+  max-width: auto;
+  background: var(--cinza-card);
+  border: 1px solid var(--cinza-bord);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* FORM */
+
+#form-Contato{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* INPUTS */
+
+#form-Contato input,
+#form-Contato textarea{
+
+  width: 100%;
+  background: var(--cinza-esc);
+  border: 1px solid var(--cinza-bord);
+  border-radius: 10px;
+  padding: 16px;
+  color: var(--txt-claro);
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* FOCO */
+
+#form-Contato input:focus,
+#form-Contato textarea:focus{
+
+  border-color: var(--verde);
+
+  box-shadow: 0 0 10px rgba(45,204,122,0.2);
+}
+
+/* TEXTAREA */
+
+#form-Contato textarea{
+  min-height: 180px;
+  resize: none;
+}
+
+/* PLACEHOLDER */
+
+#form-Contato input::placeholder,
+#form-Contato textarea::placeholder{
+  color: var(--txt-sec);
+}
+
+/* BOTÃO */
+
+#form-Contato button{
+
+  background: var(--verde);
+  color: #1b1919;
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* HOVER */
+
+#form-Contato button:hover{
+
+  background: var(--verde-esc);
+
+  transform: translateY(-2px);
+}
+
+
+
 
 /* ===== RESPONSIVO BÁSICO ===== */
 @media (max-width: 768px) {

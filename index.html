@@ -332,13 +332,45 @@
     </div>
   </section>
 
+  <!-- ===== Slides ===== -->
   <section id="slideshow">
-    <div class="container"></div>
-      <div class="imgSlides">
+    <div class="container">
+       <p class="section-label">07 — mapas de calor </p>
+       <h2 class="section-title">Exemplos de mapas de calor <br>funcionado na prática</h2>
          <img id="slide" src="./src/assets/img/img1.png">
-</section>
-      </div>
+    </div>
   </section>
+
+  <!-- ===== Formulario ===== -->
+   <section class="formulario">
+    <div class="container">
+      <p class="section-label">08 — Formulario feedbacks </p>
+    <div class="container-form">
+        <h2 class="section-title">Feedbacks</h2>
+    
+      <form id="form-Contato">
+        <input type="text" id="nome" placeholder="Seu nome">
+        <input type="text" id="email" placeholder="Seu email">
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+        <button type="submit" >Enviar</button>
+      </form>
+     
+    </div>
+    </div>
+   </section>
+
+ <!-- ===== QUIZ ===== -->
+   <section class="quiz">
+    <div class="container">
+      <div class="question-quiz">
+        <h3>1. O que é uma ilha de calor?</h3>
+
+        <button onclick="responder(true)">Área urbana mais quente</button>
+        <button onclick="responder(true)">Área rural fria </button>
+      </div>
+    </div>
+   </section>
+ 
 
   <!-- ===== RODAPÉ ===== -->
   <footer>
@@ -357,5 +389,6 @@
    
   </footer>
   <script src="./src/js/script.js"></script>
+  <script src="./src/js/form.js"></script>
 </body>
 </html>
