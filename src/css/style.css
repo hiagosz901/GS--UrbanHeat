@@ -1,4 +1,14 @@
-﻿/* ===== VARIÁVEIS DE COR E TIPOGRAFIA ===== */
+﻿@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/Outfit-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+/* ===== VARIÁVEIS DE COR E TIPOGRAFIA ===== */
 :root {
   --verde:      #2dcc7a;
   --verde-esc:  #1a9957;
@@ -10,8 +20,8 @@
   --cinza-bord: #333b45;
   --txt-claro:  #e8edf2;
   --txt-sec:    #8a96a3;
-  --fonte-title: 'Space Mono', monospace;
-  --fonte-corpo: 'DM Sans', sans-serif;
+  --fonte-title: 'Outfit' ;
+  --fonte-corpo: 'Outfit', sans-serif;
 }
 
 /* ===== RESET ===== */
@@ -72,7 +82,7 @@ nav {
   text-align: center;
   padding: 120px 24px 80px;
   background:
-    radial-gradient(ellipse 70% 60% at 50% 30%, rgba(45,204,122,0.10) 0%, transparent 70%),
+    radial-gradient(ellipse 70% 60% at 50% 30%, rgba(0, 218, 105, 0.1) 0%, transparent 60%),
     var(--cinza-esc);
   position: relative;
   overflow: hidden;
@@ -176,10 +186,24 @@ section {
   border-color: var(--verde);
   transform: translateY(-4px);
 }
-.card-icon {
+.card-icon-raio img{
+  width: 15%;
   font-size: 2rem;
   margin-bottom: 14px;
 }
+
+.card-icon-pin img{
+  width: 15%;
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.card-icon{
+  font-size: 2rem;
+  margin-bottom: 14px;
+
+}
+
 .card h3 {
   font-family: var(--fonte-title);
   font-size: 0.95rem;
