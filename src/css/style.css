@@ -521,6 +521,106 @@ footer {
 }
 
 
+/* ===== QUIZ ===== */
+
+.quiz{
+  width: 100%;
+  padding: 100px 20px;
+
+  background: var(--cinza-mid);
+}
+
+/* CONTAINER*/
+
+.quiz .container{
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  background: var(--cinza-card);
+
+  border: 1px solid var(--cinza-bord);
+
+  border-radius: 20px;
+
+  padding: 40px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* LABEL */
+
+.quiz .section-label{
+
+  color: var(--verde);
+
+  font-family: var(--fonte-title);
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+/* TÍTULO */
+
+.quiz h2{
+  font-family: var(--fonte-title);
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: var(--txt-claro);
+}
+
+/* PERGUNTA */
+#pergunta h3{
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  color: var(--txt-claro);
+}
+
+/* RESPOSTAS */
+#respostas{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* BOTÕES */
+
+#respostas button{
+  width: 100%;
+  padding: 18px;
+  background: var(--cinza-esc);
+  border: 1px solid var(--cinza-bord);
+  border-radius: 12px;
+  color: var(--txt-claro);
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+
+#respostas button:hover{
+  border-color: var(--verde);
+  background: rgba(45,204,122,0.08);
+  transform: translateY(-2px);
+}
+
+/* RESULTADO */
+
+#resultado{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--verde);
+}
+
 
 
 /* ===== RESPONSIVO BÁSICO ===== */
