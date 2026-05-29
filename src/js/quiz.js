@@ -104,6 +104,8 @@ const perguntas = [
 
 let perguntaAtual = 0;
 
+let pontos = 0;
+
 const pergunta = document.getElementById("pergunta");
 
 const respostas = document.getElementById("respostas");
